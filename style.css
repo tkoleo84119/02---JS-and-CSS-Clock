@@ -45,3 +45,25 @@ body {
   position: absolute;
   top: 50%;
 }
+
+.hour-hand {
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transform-origin: 100%;
+}
+
+.min-hand {
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transform-origin: 100%;
+}
+
+.second-hand {
+  height: 1px;
+  background: red;
+  border-radius: 3px;
+  transform-origin: 100%;
+}
+
