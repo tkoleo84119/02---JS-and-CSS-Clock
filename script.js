@@ -4,7 +4,7 @@ const hourHand = document.querySelector(".hour-hand");
 
 window.setInterval(() => {
   const now = new Date();
-  const hour = now.getHours() * 30 + 90;
+  const hour = now.getHours() * 30 + (now.getMinutes() / 60) * 30 + 90;
   const min = now.getMinutes() * 6 + 90;
   const second = now.getSeconds() * 6 + 90;
 
